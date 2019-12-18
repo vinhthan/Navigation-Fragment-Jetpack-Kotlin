@@ -4,23 +4,17 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".Fragment2">
+    tools:context=".Fragment3">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:textSize="36sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Fragment 2" />
+        android:text="Fragment 3" />
     <Button
-        android:id="@+id/btn2"
-        android:text="open F3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btn21"
-        android:text="open F4"
+        android:id="@+id/btn3"
+        android:text="open F2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

@@ -8,32 +8,27 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import kotlinx.android.synthetic.main.fragment_fragment1.*
-import kotlinx.android.synthetic.main.fragment_fragment2.*
+import kotlinx.android.synthetic.main.fragment_fragment4.*
 
 /**
  * A simple [Fragment] subclass.
  */
-class Fragment2 : Fragment() {
+class Fragment4 : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment2, container, false)
+        return inflater.inflate(R.layout.fragment_fragment4, container, false)
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        btn2.setOnClickListener {
-            view.findNavController().navigate(R.id.action_fragment2_to_fragment3)
-        }
-
-        btn21.setOnClickListener {
-            view.findNavController().navigate(R.id.action_fragment2_to_fragment4)
+        btn4.setOnClickListener {
+            view.findNavController().navigate(R.id.action_fragment4_to_fragment2)
         }
     }
-
 
 }
