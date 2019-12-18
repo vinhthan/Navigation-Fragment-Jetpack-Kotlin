@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
 
+    <!--can phai co id, name-->
     <fragment
     android:id="@+id/f1"
     android:name="androidx.navigation.fragment.NavHostFragment"
